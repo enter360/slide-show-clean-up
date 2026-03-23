@@ -22,6 +22,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Output files (processed decks/PDFs)
-*_cleaned.pptx
-*_cleaned.pdf
+# Folder contents (keep the folders, ignore files inside)
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
